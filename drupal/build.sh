@@ -129,7 +129,7 @@ class Maker:
 		f.write(self.makefile_hash)
 		f.close()
 		# Remove default.settings.php
-		os.remove(self.temp_build_dir + "/sites/default/default.settings.php")
+		# os.remove(self.temp_build_dir + "/sites/default/default.settings.php")
 		# Link and copy required files
 		self._link()
 		self._copy()
