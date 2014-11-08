@@ -1,7 +1,7 @@
 
 # Only change these if possible:
-INSTANCE_NAME     = "ansibleref"
-INSTANCE_HOSTNAME = "local.ansibleref.com"
+INSTANCE_NAME     = "wundersites"
+INSTANCE_HOSTNAME = "local.wundersites.dev"
 INSTANCE_MEM      = "4000" 
 INSTANCE_CPUS     = "2"
 INSTANCE_IP       = "192.168.10.10"
