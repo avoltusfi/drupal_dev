@@ -16,10 +16,10 @@ api = 2
 ; Specific version
 ;projects[drupal][version] = 8.0
 
-; Head from git
+; Download the latest beta
 projects[drupal][download][type]    = git
 projects[drupal][download][url]     = http://git.drupal.org/project/drupal.git
-projects[drupal][download][branch]  = 8.0.x
+projects[drupal][download][tag]  = 8.0.0-beta3
 
 ; Installation profile: COPIED LOCALLY
 
