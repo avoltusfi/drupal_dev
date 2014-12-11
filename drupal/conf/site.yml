@@ -7,12 +7,12 @@ default:
   temporary: _build
   final: current
   previous: builds
-  profile: wk 
+  profile: wk
   site: Wundersite
 
   # In development environments we want to use symlinks, note settings.php
   link:
-    - files: sites/default/files
+    # - files: sites/default/files
     - code/modules/custom: sites/all/modules/custom
     - code/modules/features: sites/all/modules/features
     - code/themes/custom: sites/all/themes/custom
@@ -48,7 +48,7 @@ test:
 
 # Production environment:
 production:
-  
+
   # Prod environment only symlinks files
   link:
     - files: sites/default/files
