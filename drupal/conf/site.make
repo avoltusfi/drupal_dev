@@ -27,6 +27,12 @@ projects[drupal][download][tag]  = 8.0.0-beta3
 ; Includes
 ; include other make files from local or remote destinations
 
+; wunderhub profile
+projects[wk][type] = "profile"
+projects[wk][download][type] = git
+projects[wk][download][url] = https://github.com/wunderkraut/wunderhub.git
+projects[wk][download][branch] = develop
+
 ; hub contrib projects
 ;includes[contrib] = "contrib.make"
 ;Developer includes

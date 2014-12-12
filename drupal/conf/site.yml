@@ -16,7 +16,6 @@ default:
     - code/modules/custom: sites/all/modules/custom
     - code/modules/features: sites/all/modules/features
     - code/themes/custom: sites/all/themes/custom
-    - code/profiles/wk: profiles/wk
     - conf/vagrant.settings.php: sites/default/settings.php
 
 # Local environment:
@@ -28,7 +27,6 @@ local:
     - code/modules/custom: sites/all/modules/custom
     - code/modules/features: sites/all/modules/features
     - code/themes/custom: sites/all/themes/custom
-    - code/profiles/wk: profiles/wk
     - conf/local.settings.php: sites/default/settings.php
 
 # Test environment:
@@ -43,7 +41,6 @@ test:
     - code/modules/custom: sites/all/modules/custom
     - code/modules/features: sites/all/modules/features
     - code/themes/custom: sites/all/themes/custom
-    - code/profiles/wk: profiles/wk
     - conf/test.settings.php: sites/default/settings.php
 
 # Production environment:
@@ -58,7 +55,6 @@ production:
     - code/modules/custom: sites/all/modules/custom
     - code/modules/features: sites/all/modules/features
     - code/themes/custom: sites/all/themes/custom
-    - code/profiles/wk: profiles/wk
     - conf/prod.settings.php: sites/default/settings.php
 
 # Command sets:
