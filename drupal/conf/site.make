@@ -17,12 +17,9 @@ api = 2
 ;projects[drupal][version] = 8.0
 
 ; Download the latest beta
-projects[drupal][download][type]    = git
-projects[drupal][download][url]     = http://git.drupal.org/project/drupal.git
-projects[drupal][download][tag]  = 8.0.0-beta3
-
-; Installation profile: COPIED LOCALLY
-
+projects[drupal][download][type] = git
+projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
+projects[drupal][download][tag] = 8.0.0-beta4
 
 ; Includes
 ; include other make files from local or remote destinations
@@ -34,6 +31,6 @@ projects[wk][download][url] = https://github.com/wunderkraut/wunderhub.git
 projects[wk][download][branch] = develop
 
 ; hub contrib projects
-;includes[contrib] = "contrib.make"
+includes[contrib] = "contrib.make"
 ;Developer includes
 includes[dev]     = "dev.make"
