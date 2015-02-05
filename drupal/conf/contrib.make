@@ -10,9 +10,9 @@ projects[restui][subdir] = contrib
 
 projects[image_raw_formatter][type] = module
 projects[image_raw_formatter][download][type] = git
-projects[image_raw_formatter][download][url] = https://github.com/enzolutions/image_raw_formatter.git
+projects[image_raw_formatter][download][url] = https://github.com/yannickoo/image_raw_formatter.git
 projects[image_raw_formatter][download][branch] = master
-projects[image_raw_formatter][download][revision] = 642c793e3b19b30a314c711cf4033c16499a2545
+projects[image_raw_formatter][download][revision] = 7f5c76dd52974bec88ca6099727c784d30346aa0
 projects[cors][type] = module
 projects[cors][download][type] = git
 projects[cors][download][url] = https://github.com/piyuesh23/cors.git
